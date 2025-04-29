@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.description {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em; 
+}
+
+h1::first-line {
+    font-size: 0.8em; 
+}
+
+
+
+.description p {
+    font-size: 1em;
+    color: #555;
+    font-family: caudex, serif;
+    font-style: italic; 
+}
+
+.timer-warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.9em; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.small-text {
+    font-size: 0.8em;
+    color: #666;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.total-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: caudex, serif;
+}
+
+.button-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* Buy Now Button */
+.btn-buy {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover */
+}
+
+/* Hover State for Buy Now Button */
+.btn-buy:hover {
+    background-color: #0056b3; /* Darker blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+/* Reset Button */
+.btn-reset {
+    background-color: #6c757d; /* Gray background */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover State for Reset Button */
+.btn-reset:hover {
+    background-color: #5a6268; /* Darker gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: #ddd;
+}
